@@ -86,10 +86,14 @@ public class SettingsStatus {
     public static void loopStory() {
         loopStory = true;
     }
+    public static boolean hideStoryFollowButton = false;
+    public static void hideStoryFollowButton() {
+        hideStoryFollowButton = true;
+    }
     public static boolean customiseStoryRingSize = false;
     public static void customiseStoryRingSize() { customiseStoryRingSize = true; }
     public static boolean storySection() {
-        return (customiseStoryTimestamp || viewStoryMentions || disableStoryFlipping || loopStory || customiseStoryRingSize);
+        return (customiseStoryTimestamp || viewStoryMentions || disableStoryFlipping || loopStory || hideStoryFollowButton || customiseStoryRingSize);
     }
 
     //Links section.
@@ -290,6 +294,7 @@ public class SettingsStatus {
         FLAGS.put(str("piko_customise_story_timestamp"),SettingsStatus.customiseStoryTimestamp);
         FLAGS.put(str("piko_disable_story_flipping"),SettingsStatus.disableStoryFlipping);
         FLAGS.put(str("piko_loop_story"),SettingsStatus.loopStory);
+        FLAGS.put(str("piko_hide_story_follow_button"),SettingsStatus.hideStoryFollowButton);
         FLAGS.put(str("piko_view_story_mentions"),SettingsStatus.viewStoryMentions);
         FLAGS.put(str("piko_follow_back_indicator"),SettingsStatus.followBackIndicator);
         FLAGS.put(str("piko_follow_list_non_follower_badge"),SettingsStatus.followListNonFollowerBadge);

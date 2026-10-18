@@ -1080,6 +1080,15 @@ public class ScreenBuilder {
                     )
             );
         }
+        if (SettingsStatus.hideStoryFollowButton) {
+            addPreference(
+                    helper.switchPreference(
+                            str("piko_hide_story_follow_button"),
+                            str("piko_hide_story_follow_button_desc"),
+                            Settings.HIDE_STORY_FOLLOW_BUTTON
+                    )
+            );
+        }
         if (SettingsStatus.customiseStoryTimestamp) {
             addPreference(
                     helper.listPreference(
