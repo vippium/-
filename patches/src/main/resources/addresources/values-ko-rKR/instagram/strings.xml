@@ -94,6 +94,8 @@
     <string name="piko_disable_swipe_to_create_desc">홈 탭에서 오른쪽으로 스와이프하여 만들기 화면이 실행되는 것을 방지합니다</string>
     <string name="piko_hide_stories_tray">스토리 선반 숨기기</string>
     <string name="piko_hide_stories_tray_desc">메인 피드에서 스토리 선반을 숨깁니다</string>
+    <string name="piko_hide_hidden_requests">숨겨진 요청 숨기기</string>
+    <string name="piko_hide_hidden_requests_desc">메시지 요청 페이지에서 숨겨진 요청 (스팸) 버튼을 숨깁니다</string>
     <string name="piko_hide_notes_tray">메모 선반 숨기기</string>
     <string name="piko_hide_notes_tray_desc">메시지 섹션에서 메모 선반을 숨깁니다</string>
     <string name="piko_hide_group_creation_button_on_sharesheet">공유 시트에서 그룹 만들기 버튼 숨기기</string>
